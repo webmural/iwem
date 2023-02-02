@@ -1,0 +1,32 @@
+::selection {
+  background: peachpuff;
+  color: indigo;
+}
+
+:root {
+  color: seashell;
+  background: indigo;
+}
+
+:any-link {
+  color: powderblue;
+  background: indigo;
+  text-shadow:
+    0 1pt 0 violet,
+    0 2pt 0 orange,
+    0 3pt 0 yellow;
+}
+
+:hover {
+  text-decoration-style: double;
+}
+
+:focus {
+  color: indigo;
+  background: aquamarine;
+}
+
+mark {
+  color: indigo;
+  background: whitesmoke;
+}
